@@ -23,7 +23,7 @@ class ArticleController extends AbstractController
         dump($allArticles);
 
         return $this->render('article/index2.html.twig', [
-            'Articles'=> $allArticles            
+            'articles'=> $allArticles            
         ]);
     }
 }
